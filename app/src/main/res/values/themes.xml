@@ -14,7 +14,7 @@
         <!-- Customize your theme here. -->
         <item name="editTextStyle">@style/MyWidget.AppCompat.EditText</item>
     </style>
-    
+
     <style name="Theme.AndroidDesdeCero.MyActivityTheme">
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorAccent</item>
     </style>
