@@ -18,5 +18,15 @@ class MovieView @JvmOverloads constructor(
         val view = LayoutInflater
             .from(context)
             .inflate(R.layout.view_movie, this, true)
+
+        cover = findViewById(R.id.cover)
+        title = findViewById(R.id.title)
+
+        orientation = VERTICAL
+    }
+
+    fun setMovie(movie: Movie) {
+        title.text = movie.title
+        // cover.image = movie.cover
     }
 }

@@ -10,21 +10,8 @@
     android:theme="@style/Theme.AndroidDesdeCero.Form"
     tools:context=".MainActivity">
 
-    <com.misterfront.androiddesdecero.AspectRatioImageView
-        android:id="@+id/cover"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        app:ratio="1.5"
-        app:srcCompat="@drawable/avengers" />
-
-    <TextView
-        android:id="@+id/textView2"
+    <com.misterfront.androiddesdecero.MovieView
+        android:id="@+id/movie"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/purple_500"
-        android:padding="8dp"
-        android:text="Avengers"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@color/white" />
-
+        android:layout_height="match_parent" />
 </LinearLayout>
