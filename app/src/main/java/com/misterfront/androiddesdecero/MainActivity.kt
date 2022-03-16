@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val movie = findViewById<MovieView>(R.id.movie)
-        movie.setMovie(Movie("Batman", "http://"))
+        movie.setMovie(Movie("Batman", "https://loremflickr.com/320/240"))
     }
 
 }

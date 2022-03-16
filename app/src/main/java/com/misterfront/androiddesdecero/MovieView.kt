@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import com.bumptech.glide.Glide
 
 class MovieView @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null
@@ -27,6 +28,6 @@ class MovieView @JvmOverloads constructor(
 
     fun setMovie(movie: Movie) {
         title.text = movie.title
-        // cover.image = movie.cover
+        Glide.with(context).load(movie.cover).into(cover)
     }
 }
